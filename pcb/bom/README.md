@@ -1,6 +1,6 @@
 # Bill of Materials
 
-[Joystick](https://www.amazon.com/WGCD-Joystick-Breakout-Controller-Arduino/dp/B01N59MK0U/ref=sr_1_5?dib=eyJ2IjoiMSJ9.BEnggsyzkGiqKP3spiTNMwsim-qJcM45jGaeNisGIgXL1iUw0Y26H58AFZF8T2_zhQu7Rnnv9P-a_A2Ni6UrsrKA3XTxTvZhB-d0WlC8lOW6lh5FpXk6pI339INt_byz613ut-nxJHNN5_ZTanZB8ZF5W0F8m7xdxxDqMSLgn1XqLyLL6ldqY1fPWrU5PIDtrEUjskFKVn0dPYKNB3oP1rPcWmB1PB5mauzODdZ0XnM.9QgKtTGCN3IkHv3M7Ho-Sifws-tz-BbPkJXFhB7k4Xg&dib_tag=se&keywords=joystick+arduino&qid=1713476526&sr=8-5)
+[Joystick](https://www.amazon.com/EEEKit-Replacement-Joystick-Thumbstick-Controller/dp/B0BDKRQ141/ref=sr_1_4_sspa?crid=28SSX89F7VC5J&dib=eyJ2IjoiMSJ9.d6HPSD1jn_F6ujR_s1BoeZNEp4OkaNhoFtyB--yqTh_GjHj071QN20LucGBJIEps.ZKxU8jGKJY5KRY-cCzbBL2gIaoHYK6xM4fr5JXwo2cA&dib_tag=se&keywords=com-09032%2Bjoystick&qid=1713555195&sprefix=%2Caps%2C124&sr=8-4-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9idGY&th=1)
 
 [Rotary Encoders](https://www.amazon.com/Encoder-Digital-Potentiometer-Compatible-Arduino/dp/B09KNC1J6H/ref=sr_1_5?crid=2H960SO18M7X5&dib=eyJ2IjoiMSJ9._s_FAhQr5PXlpTlOwNHvq06N2GvGv9L6H8adZYaoG3L5s_MI4_yjFueBIK2XVI9hIshPc-kpQGckeM8T_dOfJky548EHMSFyu08HaLi-UmdAk3J9YoA2Drrt1gYAle6PLvxXqjeSqE3_sPt0_geRHgazs0hky47QXZ0aMLmLQxlBI6XZ_btVxUURD78h43_vYk-sU9iTnpcQbmlv23CZkNQRF1oM9cA_WbohEqgcN4s.CIF3f1eZAkh-kklgzmxUW9Iz2Sra1WE7Z7liefFvR0c&dib_tag=se&keywords=rotary+encoder&qid=1713476654&sprefix=rotary+encoder%2Caps%2C65&sr=8-5)
 
