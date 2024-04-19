@@ -1,0 +1,33 @@
+!SESSION 2024-04-19 17:46:35.971 -----------------------------------------------
+eclipse.buildId=Version 1.15.0
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-04-19 17:47:44.887
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-04-19 17:47:44.888
+!MESSAGE Log4j2 initialized with config file /home/mfact/Projects/rc-controller/firmware/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-04-19 17:47:46.762
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-04-19 17:49:48.916
+!MESSAGE Indexed 'rc-controller' (19 sources, 81 headers) in 1.31 sec: 4,268 declarations; 17,883 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.009%)
+!SESSION 2024-04-19 17:51:49.529 -----------------------------------------------
+eclipse.buildId=Version 1.15.0
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-04-19 17:51:58.753
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-04-19 17:51:58.753
+!MESSAGE Log4j2 initialized with config file /home/mfact/Projects/rc-controller/firmware/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-04-19 17:52:01.463
+!MESSAGE Started RMI Server, listening on port 41337
