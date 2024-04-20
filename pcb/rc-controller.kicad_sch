@@ -13146,7 +13146,7 @@
 		(uuid "08f11ea9-6de9-49a8-9499-267da4db9254")
 	)
 	(label "SNSCK"
-		(at 417.83 146.05 0)
+		(at 463.55 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13157,7 +13157,7 @@
 		(uuid "0f3c1a23-c17d-4e41-96a9-0c1441131081")
 	)
 	(label "SCL"
-		(at 406.4 166.37 0)
+		(at 454.66 140.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13168,7 +13168,7 @@
 		(uuid "12cd9132-186e-4977-af4f-f124fb31c6cb")
 	)
 	(label "RFSCK"
-		(at 406.4 133.35 0)
+		(at 476.25 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13223,7 +13223,7 @@
 		(uuid "2e7b3f5b-9c7a-4d60-9cb3-ce324b5aa98a")
 	)
 	(label "JY1X"
-		(at 406.4 119.38 0)
+		(at 445.77 146.05 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13311,7 +13311,7 @@
 		(uuid "3b5b26ee-e852-4e38-89a6-0c27b80765db")
 	)
 	(label "SNMISO"
-		(at 417.83 143.51 0)
+		(at 463.55 140.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13322,7 +13322,7 @@
 		(uuid "3df0199d-2ea7-4253-be6c-75fea3ac44f1")
 	)
 	(label "PCS"
-		(at 417.83 124.46 0)
+		(at 417.83 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13333,7 +13333,7 @@
 		(uuid "3ee43d1c-2ab2-4879-833d-840d8d740de4")
 	)
 	(label "SDA"
-		(at 406.4 163.83 0)
+		(at 454.66 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13344,7 +13344,7 @@
 		(uuid "41c946bd-fb4d-4498-8965-7370eb074a6f")
 	)
 	(label "JY2Y"
-		(at 406.4 111.76 0)
+		(at 445.77 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13377,7 +13377,7 @@
 		(uuid "4a009eeb-6074-4be7-b29b-ab78b76f10bc")
 	)
 	(label "CHRG"
-		(at 417.83 106.68 0)
+		(at 426.72 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13388,7 +13388,7 @@
 		(uuid "4aa42329-b969-4c0d-8cf3-8900d18ac020")
 	)
 	(label "BT4"
-		(at 417.83 158.75 0)
+		(at 426.72 151.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13399,7 +13399,7 @@
 		(uuid "4cf18377-b585-4251-8e5f-d4439126ada9")
 	)
 	(label "RFMOSI"
-		(at 406.4 128.27 0)
+		(at 476.25 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13410,7 +13410,7 @@
 		(uuid "4eae8a2e-cee6-4842-a7fb-da8d612c82a3")
 	)
 	(label "TSW2"
-		(at 406.4 151.13 0)
+		(at 426.72 161.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13531,7 +13531,7 @@
 		(uuid "7403af26-df63-4a35-b388-6cb17c07a621")
 	)
 	(label "BREF"
-		(at 406.4 158.75 0)
+		(at 445.77 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13553,7 +13553,7 @@
 		(uuid "7e6f75b2-ec51-4039-bc32-cb56094f6047")
 	)
 	(label "RFMISO"
-		(at 406.4 130.81 0)
+		(at 476.25 140.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13597,7 +13597,7 @@
 		(uuid "8907e3a5-8e29-4d40-a7d8-d392d1d931ad")
 	)
 	(label "RFIRQ"
-		(at 406.4 142.24 0)
+		(at 436.88 146.05 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13608,7 +13608,7 @@
 		(uuid "8bfc6b88-106d-49b3-8b69-fff9c1fcb594")
 	)
 	(label "GINT2"
-		(at 417.83 134.62 0)
+		(at 436.88 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13630,7 +13630,7 @@
 		(uuid "8f5b82ca-f09d-474f-9b71-8cb0cb78d694")
 	)
 	(label "BT3"
-		(at 417.83 156.21 0)
+		(at 426.72 148.59 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13641,7 +13641,7 @@
 		(uuid "90129c43-cd87-41c2-926d-141141627643")
 	)
 	(label "TSW1"
-		(at 406.4 148.59 0)
+		(at 426.72 158.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13652,7 +13652,7 @@
 		(uuid "94d059e6-9977-4d1d-a065-d07d9a3d4f21")
 	)
 	(label "PWRON"
-		(at 406.4 156.21 0)
+		(at 406.4 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13696,7 +13696,7 @@
 		(uuid "9ce10aae-91d9-4ae1-95f2-ebf1f45f23e7")
 	)
 	(label "BT1"
-		(at 417.83 151.13 0)
+		(at 426.72 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13718,7 +13718,7 @@
 		(uuid "a1adb4a0-a8bc-4bad-b26b-38ba4c0b7904")
 	)
 	(label "GCS"
-		(at 417.83 128.27 0)
+		(at 417.83 140.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13740,7 +13740,7 @@
 		(uuid "a64e9135-5946-4668-a1c2-f65940013f2c")
 	)
 	(label "JY2SW"
-		(at 406.4 106.68 0)
+		(at 426.72 153.67 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13751,7 +13751,7 @@
 		(uuid "aca7b46d-c0f0-4ffc-b556-36576a8cdd2a")
 	)
 	(label "SNMOSI"
-		(at 417.83 140.97 0)
+		(at 463.55 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13762,7 +13762,7 @@
 		(uuid "b13363a2-83f1-4a84-988b-8e3581cce7ff")
 	)
 	(label "JY1Y"
-		(at 406.4 121.92 0)
+		(at 445.77 148.59 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13806,7 +13806,7 @@
 		(uuid "ba6b00f9-4e86-4648-a3a2-84d2b9bea562")
 	)
 	(label "GINT1"
-		(at 417.83 132.08 0)
+		(at 436.88 140.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13927,7 +13927,7 @@
 		(uuid "cfc2e286-aa7c-4111-898b-071b4ab2495d")
 	)
 	(label "STDBY"
-		(at 417.83 109.22 0)
+		(at 426.72 140.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13971,7 +13971,7 @@
 		(uuid "d94f54f4-0017-4a20-b72c-60f9562f27e7")
 	)
 	(label "BT2"
-		(at 417.83 153.67 0)
+		(at 426.72 146.05 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13981,8 +13981,8 @@
 		)
 		(uuid "db9c027b-04f3-44d1-ae4b-c3a5112cc812")
 	)
-	(label "RFnCS"
-		(at 406.4 135.89 0)
+	(label "RFCS"
+		(at 417.83 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14026,7 +14026,7 @@
 		(uuid "ea161439-a581-4509-a5da-28018e4f1068")
 	)
 	(label "DRDY"
-		(at 417.83 121.92 0)
+		(at 436.88 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14059,7 +14059,7 @@
 		(uuid "f62b9f15-147c-4cb7-af2a-0819d9cb8f7b")
 	)
 	(label "JY1SW"
-		(at 406.4 116.84 0)
+		(at 426.72 156.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14070,7 +14070,7 @@
 		(uuid "f702d0b0-969e-4235-8414-bd68fe0925fb")
 	)
 	(label "RFCE"
-		(at 406.4 139.7 0)
+		(at 417.83 146.05 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14081,7 +14081,7 @@
 		(uuid "f7b83665-d93d-4a88-b3d9-078a2bdca6ad")
 	)
 	(label "JY2X"
-		(at 406.4 109.22 0)
+		(at 445.77 140.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
