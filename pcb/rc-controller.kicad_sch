@@ -10044,6 +10044,16 @@
 	)
 	(wire
 		(pts
+			(xy 382.27 140.97) (xy 391.16 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ec45228-9f36-49ce-a215-7d5101e67bbe")
+	)
+	(wire
+		(pts
 			(xy 114.3 69.85) (xy 116.84 69.85)
 		)
 		(stroke
@@ -11854,6 +11864,16 @@
 	)
 	(wire
 		(pts
+			(xy 382.27 133.35) (xy 391.16 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b78c3621-3f07-44cd-9aab-eb8f9c03b4f5")
+	)
+	(wire
+		(pts
 			(xy 284.48 45.72) (xy 289.56 45.72)
 		)
 		(stroke
@@ -12021,6 +12041,16 @@
 			(type default)
 		)
 		(uuid "c6fe7bfc-b857-485d-b0e0-0ef1b383c240")
+	)
+	(wire
+		(pts
+			(xy 382.27 138.43) (xy 391.16 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7b9338c-7f8b-467f-90a7-3420ebd61f79")
 	)
 	(polyline
 		(pts
@@ -13237,7 +13267,7 @@
 		(uuid "36a24394-0193-4468-8669-cdbecb68a659")
 	)
 	(label "USB_D+"
-		(at 417.83 114.3 0)
+		(at 383.54 140.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13479,7 +13509,7 @@
 		(uuid "6cb03100-e3be-4c23-b39d-78deb747a6a9")
 	)
 	(label "SNSBUS"
-		(at 417.83 116.84 0)
+		(at 383.54 133.35 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14095,7 +14125,7 @@
 		(uuid "fb48d4c9-5758-4e8c-a5f7-ab7b390ae242")
 	)
 	(label "USB_D-"
-		(at 417.83 111.76 0)
+		(at 383.54 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
