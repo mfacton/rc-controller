@@ -1951,8 +1951,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 6.604 0)
+			(property "Reference" "RE1"
+				(at 0 9.398 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1960,14 +1960,14 @@
 				)
 			)
 			(property "Value" "RotaryEncoder_Switch"
-				(at 0 -6.604 0)
+				(at 1.778 6.858 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
 				(at -3.81 4.064 0)
 				(effects
 					(font
@@ -1986,6 +1986,15 @@
 				)
 			)
 			(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C202365"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2285,6 +2294,24 @@
 						)
 					)
 					(number "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5754,8 +5781,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "M"
-				(at 2.54 2.54 0)
+			(property "Reference" "M1"
+				(at 5.08 -1.2699 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5764,16 +5791,16 @@
 				)
 			)
 			(property "Value" "Motor_DC"
-				(at 2.54 -5.08 0)
+				(at 5.08 -3.8099 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 -2.286 0)
+			(property "Footprint" "Motors:Vybronics_VZ30C1T8219732L"
+				(at -1.016 12.954 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5791,7 +5818,16 @@
 				)
 			)
 			(property "Description" "DC Motor"
-				(at 0 0 0)
+				(at -1.016 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C2894731"
+				(at -1.016 15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5922,6 +5958,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 -1.27 0)
+					(length 3.048)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6635,6 +6689,418 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "RotaryEncoder_Switch_1"
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RE2"
+				(at -1.27 9.652 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RotaryEncoder_Switch"
+				(at 2.286 7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
+				(at -3.81 4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C202365"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "rotary switch encoder switch push button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "RotaryEncoder*Switch*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RotaryEncoder_Switch_1_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -3.81 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -0.381 0)
+					(radius 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.381 2.667)
+					(mid -3.0988 -0.0635)
+					(end -0.381 -2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.778) (xy -0.635 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.381 -1.778) (xy -0.381 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 1.778) (xy -0.127 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 3.429 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.016) (xy 3.81 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -3.81 -2.54) (xy -3.81 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -3.81 2.54) (xy -3.81 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -3.048) (xy -0.508 -2.794) (xy 0.127 -2.413)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 2.921) (xy -0.508 2.667) (xy 0.127 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 4.318 -2.54) (xy 4.318 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 4.318 2.54) (xy 4.318 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -3.81 0) (xy -3.81 -1.016) (xy -3.302 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.318 0) (xy -3.81 0) (xy -3.81 1.016) (xy -3.302 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.318 -1.016)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.318 1.016)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RotaryEncoder_Switch_1_1_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8594,7 +9060,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 				(at 8.128 7.112 0)
 				(effects
 					(font
@@ -11394,6 +11860,10 @@
 		(uuid "5ce20c2c-38d0-4a92-82c5-a54dd317917e")
 	)
 	(no_connect
+		(at 170.18 194.31)
+		(uuid "68a44758-485c-48c3-aa1f-7f7f324e9c29")
+	)
+	(no_connect
 		(at 118.11 190.5)
 		(uuid "68e71f8d-c18a-41b0-83d9-8ac4e21d0a7a")
 	)
@@ -11614,6 +12084,16 @@
 			(type default)
 		)
 		(uuid "0d2688cd-ad50-483a-8ad9-a6aba5c12a35")
+	)
+	(wire
+		(pts
+			(xy 224.79 129.54) (xy 224.79 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d31ccc5-bffe-41f5-abfb-16512985d9d3")
 	)
 	(wire
 		(pts
@@ -11897,7 +12377,7 @@
 	)
 	(polyline
 		(pts
-			(xy 160.02 212.09) (xy 194.31 212.09)
+			(xy 160.02 214.63) (xy 194.31 214.63)
 		)
 		(stroke
 			(width 0)
@@ -12167,7 +12647,7 @@
 	)
 	(polyline
 		(pts
-			(xy 194.31 212.09) (xy 194.31 152.4)
+			(xy 194.31 214.63) (xy 194.31 152.4)
 		)
 		(stroke
 			(width 0)
@@ -12517,7 +12997,7 @@
 	)
 	(polyline
 		(pts
-			(xy 167.64 107.95) (xy 167.64 138.43)
+			(xy 167.64 107.95) (xy 167.64 139.7)
 		)
 		(stroke
 			(width 0)
@@ -12965,6 +13445,16 @@
 		)
 		(uuid "4a90176b-a8d7-4e01-a0da-bdb111fd3a45")
 	)
+	(wire
+		(pts
+			(xy 187.96 129.54) (xy 187.96 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b3ef113-9c68-45bf-a2f8-834aa96d0505")
+	)
 	(polyline
 		(pts
 			(xy 90.17 276.86) (xy 90.17 226.06)
@@ -13407,7 +13897,7 @@
 	)
 	(polyline
 		(pts
-			(xy 243.84 138.43) (xy 243.84 107.95)
+			(xy 243.84 139.7) (xy 243.84 107.95)
 		)
 		(stroke
 			(width 0)
@@ -13697,7 +14187,7 @@
 	)
 	(polyline
 		(pts
-			(xy 160.02 158.75) (xy 160.02 212.09)
+			(xy 160.02 158.75) (xy 160.02 214.63)
 		)
 		(stroke
 			(width 0)
@@ -13997,7 +14487,7 @@
 	)
 	(polyline
 		(pts
-			(xy 167.64 138.43) (xy 243.84 138.43)
+			(xy 167.64 139.7) (xy 243.84 139.7)
 		)
 		(stroke
 			(width 0)
@@ -18705,7 +19195,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 71.4248 93.98 0)
 			(effects
 				(font
@@ -18724,6 +19214,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 72.39 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1595"
 			(at 72.39 97.79 0)
 			(effects
 				(font
@@ -18776,7 +19275,7 @@
 			)
 		)
 		(property "Footprint" "Motors:Vybronics_VZ30C1T8219732L"
-			(at 176.53 195.326 0)
+			(at 175.514 180.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18794,7 +19293,7 @@
 			)
 		)
 		(property "Description" "DC Motor"
-			(at 176.53 193.04 0)
+			(at 175.514 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18803,7 +19302,7 @@
 			)
 		)
 		(property "LCSC" "C2894731"
-			(at 176.53 193.04 0)
+			(at 175.514 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18816,6 +19315,9 @@
 		)
 		(pin "2"
 			(uuid "64628ca6-82c0-4552-b9a6-e3644deed61e")
+		)
+		(pin "SH"
+			(uuid "951a66bf-4920-4489-bcf9-b903ebee3ea9")
 		)
 		(instances
 			(project "rc-controller"
@@ -20965,6 +21467,7 @@
 		)
 	)
 	(symbol
+		(lib_name "RotaryEncoder_Switch_1")
 		(lib_id "Device:RotaryEncoder_Switch")
 		(at 224.79 121.92 0)
 		(unit 1)
@@ -21039,6 +21542,9 @@
 		)
 		(pin "A"
 			(uuid "d72f6d76-153f-4754-ba1b-73339382babd")
+		)
+		(pin "MP"
+			(uuid "d12fef71-f6b8-4a16-934d-18a194642809")
 		)
 		(instances
 			(project "rc-controller"
@@ -21739,7 +22245,7 @@
 				)
 			)
 		)
-		(property "Value" "1m"
+		(property "Value" "1M"
 			(at 30.48 85.09 90)
 			(effects
 				(font
@@ -21767,6 +22273,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 30.48 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C26083"
+			(at 30.48 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23061,7 +23576,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 57.658 36.068 0)
 			(effects
 				(font
@@ -23708,6 +24223,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7420362"
+			(at 176.53 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e8123918-787f-40f1-bb2a-c588980ae165")
 		)
@@ -23799,7 +24323,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "9aac5a82-2d91-427a-adec-6faef3d62441")
 		(property "Reference" "BT1"
 			(at 102.108 55.372 0)
@@ -23976,6 +24500,15 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 256KB flash, 64KB RAM, 84 MHz, 1.7-3.6V, 50 GPIO, LQFP64"
+			(at 370.84 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C74524"
 			(at 370.84 187.96 0)
 			(effects
 				(font
@@ -24536,7 +25069,7 @@
 		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "a718853e-2d2c-47d5-b046-70c29d66b2db")
 		(property "Reference" "JP1"
 			(at 32.258 100.076 90)
@@ -25057,6 +25590,15 @@
 		)
 		(property "Description" ""
 			(at 62.23 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C448642"
+			(at 67.31 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26198,6 +26740,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7420362"
+			(at 26.67 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b6e89efe-73db-40ea-be2d-6a76bfdfc039")
 		)
@@ -26277,6 +26828,73 @@
 			(project "rc-controller"
 				(path "/194a9ee6-1a0c-43bb-8d51-0f60bff519bd"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_4")
+		(lib_id "power:GND")
+		(at 224.79 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2cd2853-7123-49e8-95f0-050f77b3775c")
+		(property "Reference" "#PWR084"
+			(at 224.79 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 224.79 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 224.79 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4d99be9-9dc5-47b9-885c-a6fb60374e0d")
+		)
+		(instances
+			(project "rc-controller"
+				(path "/194a9ee6-1a0c-43bb-8d51-0f60bff519bd"
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -26414,6 +27032,73 @@
 			(project "rc-controller"
 				(path "/194a9ee6-1a0c-43bb-8d51-0f60bff519bd"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_4")
+		(lib_id "power:GND")
+		(at 187.96 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5b43a22-a72d-4163-92a7-e60ccb3705e9")
+		(property "Reference" "#PWR085"
+			(at 187.96 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 187.96 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 187.96 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd24bf57-d257-4661-896a-19150e5079ac")
+		)
+		(instances
+			(project "rc-controller"
+				(path "/194a9ee6-1a0c-43bb-8d51-0f60bff519bd"
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -27020,6 +27705,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C165948"
+			(at 34.29 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "B4"
 			(uuid "92046c78-8ff6-44ad-bcff-3a6e0edda689")
 		)
@@ -27508,7 +28202,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "340k"
+		(property "Value" "330k"
 			(at 84.328 83.82 0)
 			(effects
 				(font
@@ -27536,6 +28230,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 82.55 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25778"
 			(at 82.55 82.55 0)
 			(effects
 				(font
@@ -28322,6 +29025,9 @@
 		)
 		(pin "A"
 			(uuid "099d1aeb-29e3-445f-b809-0e676cc57c1b")
+		)
+		(pin "MP"
+			(uuid "96cd3446-37c3-46d1-9be3-f609fbfb525c")
 		)
 		(instances
 			(project "rc-controller"
@@ -29170,7 +29876,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "fc15c1c2-8199-4604-9bd9-c933a2fd0178")
 		(property "Reference" "J1"
 			(at 301.498 223.266 0)
