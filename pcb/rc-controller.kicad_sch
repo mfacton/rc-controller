@@ -9229,7 +9229,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_SO:SOP-8-1EP_4.57x4.57mm_P1.27mm_EP4.57x4.45mm"
+			(property "Footprint" "Package_SO:HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.1mm"
 				(at -3.556 17.018 0)
 				(effects
 					(font
@@ -11764,6 +11764,12 @@
 		(uuid "d390e315-4b80-47c8-9b14-9a7e1d560cf8")
 	)
 	(junction
+		(at 325.12 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8415c04-74b2-4188-b442-bf146146781e")
+	)
+	(junction
 		(at 132.08 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12894,6 +12900,16 @@
 			(type default)
 		)
 		(uuid "32652c27-d0e4-41fe-9477-2d5723f83cf8")
+	)
+	(wire
+		(pts
+			(xy 325.12 144.78) (xy 325.12 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "328cf73a-21df-4fb1-9826-96a3d1fc3fea")
 	)
 	(wire
 		(pts
@@ -16818,17 +16834,6 @@
 			(justify left bottom)
 		)
 		(uuid "4371ecbf-882a-4ef8-bda7-a8b2de32047c")
-	)
-	(label "VREF"
-		(at 349.25 157.48 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "44d69552-8ebb-4920-a3f5-aa0e4820a42d")
 	)
 	(label "USB_D+"
 		(at 83.82 190.5 0)
@@ -24248,6 +24253,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 325.12 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "977d0d98-f8a5-4c48-b104-1e01fcc6dd09")
+		(property "Reference" "#PWR086"
+			(at 325.12 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 325.12 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 325.12 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 325.12 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 325.12 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41553292-2142-4c81-8e5b-152db5cd73db")
+		)
+		(instances
+			(project "rc-controller"
+				(path "/194a9ee6-1a0c-43bb-8d51-0f60bff519bd"
+					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 146.05 107.95 0)
 		(unit 1)
@@ -25570,7 +25641,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOP-8-1EP_4.57x4.57mm_P1.27mm_EP4.57x4.45mm"
+		(property "Footprint" "Package_SO:HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.1mm"
 			(at 63.754 76.962 0)
 			(effects
 				(font
