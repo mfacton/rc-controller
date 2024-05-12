@@ -623,7 +623,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "rc-controller.step",
       "svg": "",
       "vrml": ""
     },
