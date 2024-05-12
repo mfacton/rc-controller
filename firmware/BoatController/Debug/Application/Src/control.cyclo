@@ -1,2 +1,2 @@
-../Application/Src/control.c:3:6:Control_Init	1
-../Application/Src/control.c:7:6:Control_Loop	1
+../Application/Src/control.c:14:6:Control_Init	1
+../Application/Src/control.c:41:6:Control_Loop	6

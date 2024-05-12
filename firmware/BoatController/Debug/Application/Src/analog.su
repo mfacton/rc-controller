@@ -1,0 +1,3 @@
+../Application/Src/analog.c:13:6:Analog_Start	0	static
+../Application/Src/analog.c:18:10:Analog_GetValue	0	static
+../Application/Src/analog.c:22:6:HAL_ADC_ConvCpltCallback	0	static

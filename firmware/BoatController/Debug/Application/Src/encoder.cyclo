@@ -1,0 +1,4 @@
+../Application/Src/encoder.c:13:6:Encoder_Init	1
+../Application/Src/encoder.c:21:6:Encoder_Handler	6
+../Application/Src/encoder.c:48:9:Encoder_GetRotation	1
+../Application/Src/encoder.c:51:6:Encoder_Reset	1
