@@ -1,2 +1,0 @@
-../Application/Src/gpio.c:60:9:GPIO_Read	0	static
-../Application/Src/gpio.c:64:6:GPIO_Write	4	static

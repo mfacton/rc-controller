@@ -3,6 +3,10 @@
 
 ### STM32 ###
 .metadata/
+Debug/
+Drivers/
+Middlewares/
+USB_DEVICE/
 
 ### KiCad ###
 # For PCBs designed using KiCad: https://www.kicad.org/

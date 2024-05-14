@@ -1,3 +1,0 @@
-../Application/Src/input.c:9:6:Input_Handler	4
-../Application/Src/input.c:19:9:Input_GetState	1
-../Application/Src/input.c:23:9:Input_GetPressed	1

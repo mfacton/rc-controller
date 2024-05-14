@@ -1,2 +1,0 @@
-../Application/Src/timing.c:9:6:Timing_Start	1
-../Application/Src/timing.c:14:6:HAL_TIM_PeriodElapsedCallback	3
