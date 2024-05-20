@@ -612,6 +612,18 @@
       {
         "netclass": "Analog",
         "pattern": "/JY\\d(X|Y)"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/SWO"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": ".*IRQ"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "VUSB"
       }
     ]
   },
